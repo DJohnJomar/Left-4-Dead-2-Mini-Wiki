@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+}
+
+
+section{
+    margin:40px 0 0 40px;
+}
+.poster{
+    max-width: 300px;
+    max-height:300px;
+}
+.plotSection, #overview{
+    display:flex;
+    align-items:center;
+}
+
+#overview img, .poster{
+    margin:20px;
+}
+    
