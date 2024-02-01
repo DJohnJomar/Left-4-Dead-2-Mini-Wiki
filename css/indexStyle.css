@@ -1,18 +1,31 @@
-*{
-    box-sizing:border-box;
+
+body{
+    font-size:1.2rem;
 }
-
-
 section{
     margin:40px 0 0 40px;
+}
+main{
+    max-width:80%;
+    margin:0 auto 0 auto;
 }
 .poster{
     max-width: 300px;
     max-height:300px;
 }
+#groupie{
+    max-width:400px;
+}
+.reversePlotSection img{
+    order:2;
+}
 .plotSection, #overview{
     display:flex;
     align-items:center;
+}
+#plot h2{
+    text-align: center;
+    font-size:2rem;
 }
 
 #overview img, .poster{
