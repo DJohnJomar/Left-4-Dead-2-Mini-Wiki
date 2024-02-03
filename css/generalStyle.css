@@ -67,7 +67,8 @@ a{
     text-decoration:none;
 }
 a:hover{
-    color:red;
+    color:rgb(255, 0, 0);
+    text-decoration: underline;
 }
 nav a:hover{
     font-size:2.6rem;

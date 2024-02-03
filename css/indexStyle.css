@@ -7,6 +7,9 @@ main{
     max-width:80%;
     margin:0 auto 0 auto;
 }
+.currentPage{
+    color:red;
+}
 .poster{
     max-width: 300px;
     max-height:300px;
