@@ -1,6 +1,7 @@
 *{
     box-sizing:border-box;
 }
+/* Responsive styling */
 body{
     background-color: black;
     color:rgb(255,255,255);
@@ -14,7 +15,6 @@ body{
     body{
         max-width:475px;
     }
-
 }
 @media (min-width:640px){
     body{
@@ -41,7 +41,7 @@ body{
         max-width:1536px;
     }
 }
-
+/*header styling*/
 header{
     width:fit-content;
     display:flex;
@@ -53,6 +53,8 @@ header img{
 header img{
     max-width:100px;
 }
+
+/*nav and anchor tags styles*/
 nav{
     display:flex;
     justify-content:space-around;
@@ -73,6 +75,10 @@ a:hover{
 nav a:hover{
     font-size:2.6rem;
 }
+.currentPage{
+    color:red;
+}
+/*footer*/
 footer{
     width:fit-content;
     margin:0 auto 0 auto;
@@ -81,8 +87,12 @@ footer{
     flex-direction:column;
 }
 
+/*font styling*/
 .mediumFont{
     font-size:1.2rem;
+}
+.titleFont{
+    font-size:2rem;
 }
 .largeFont{
     font-size:2.5rem;
