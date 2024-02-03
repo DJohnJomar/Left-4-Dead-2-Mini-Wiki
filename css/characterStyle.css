@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+}
+.character img{
+    max-width:250px;
+    margin-right:25px;
+}
+.character{
+    display:flex;
+    align-items: center;
+    padding:0 25px 0 50px;
+}
+.character p:not(#name){
+    text-indent: 50px;
+    font-size: 1.25rem;;
+}
+#name{
+    color:red;
+}
