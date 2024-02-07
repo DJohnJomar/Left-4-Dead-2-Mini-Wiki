@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Left 4 Dead 2 Mini Wiki</title>
     <link rel="icon" type="image/png" href="Images/l4d2 logo.png">
     <link rel="stylesheet" href="css/generalStyle.css">
+    <link rel="stylesheet" href="css/weaponStyle.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -15,23 +18,73 @@
     </header>
     <!--Nav-->
     <nav class="largeFont">
-    <a href="index.html">Home</a>
-    <a href="maps.html">Maps</a>
-    <a href="characters.html">Characters</a>
-    <a href="weapons.html">Weapons</a>
+        <a href="index.html">Home</a>
+        <a href="maps.html">Maps</a>
+        <a href="characters.html">Characters</a>
+        <a href="weapons.html">Weapons</a>
     </nav>
     <hr>
-    <!--Main-->
-    <main>
-        
-    </main>
+    
+    <div id="container">
+        <!-- Weapon Stats Explanation Section -->
+        <aside>
+            <h2 class="titleFont">Weapon Data Explained</h2>
+            <h3>Damage Related Stats</h3>
+            <ul>
+                <li><b>Damage:</b> Damage per bullet</li>
+                <li><b>Bullets:</b> Bullets per shot</li>
+                <li><b>RangeModifier:</b> Damage% loss every 512 in game units</li>
+                <li><b>Range:</b> Maximum range before bullets no longer deal damage. (Scales with range modifier)</li>
+                <li><b>GainRange:</b> This transforms a certain portion of Range, beginning from its end, into a curve that is steep at the middle and falls off to 0 at the end. The value is how much the range this curve takes up. The curve starts with the damage reduced by range Modifier until that specific point.</li>
+                <li><b>PenetrationNumLayers:</b> How many layers can a bullet penetrate before stopping.</li>
+                <li><b>PenetrationPower:</b> Damage % left over after going through an object. Only affects them once. (100 = 100% of damage.</li>
+                <li><b>PenetrationMaxDistance:</b> Maximum distance bullets can travel after going through an object.</li> 
+                <li><b></b></li>
+                
+            </ul>
+            <h3>Accuracy Related Stats</h3>
+            <ul>
+                <li><b>Damage:</b> Damage per bullet</li>
+                <li></li>
+                
+            </ul>
+        </aside>
+    
+        <!--Main-->
+        <main>
+            <!-- Tier 1 weapons section -->
+            <section>
+                <h2 class="titleFont">Tier 1 weapons</h2>
+                <hr>
+                <div class="weapon">
+                    <img src="Images/uzi.png">
+                    <p class="mediumFont">The Uzi is the weakest of all weapons, however used with a laser sight it can become a very lethal bullet hose. Good at picking commons because of it's run and gun accuracy. Headhunting is the best thing this weapon can do at closer range, even against incoming hordes.</p>
+                    <div class="stats">
+                        <div>
+                            <p><b>Damage:</b><span class="value">20</span></p>
+                            <p><b></b><span></span></p>
+                        </div>
+                        <div>
+                            <p><b>Damage:</b><span class="value">20</span></p>
+                            <p><b></b><span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Tier 2 Weapons Section -->
+        </main>
+    </div>
     <hr>
-        
+
     <!--Footer-->
     <footer class="mediumFont">
+        <p>Most of the information used in this webpage came from the <a
+                href="https://left4dead.fandom.com/wiki/Left_4_Dead_2" target="_blank">Left 4 Dead 2 Wiki</a> </p>
         <a href="https://github.com/DJohnJomar/Left-4-Dead-2-Mini-Wiki" target="_blank">Website Github Repository</a>
         <a href="https://github.com/DJohnJomar" target="_blank">My Github Profile</a>
         <a href="https://www.facebook.com/J0hnjomar" target="_blank">Facebook</a>
     </footer>
 </body>
+
 </html>
