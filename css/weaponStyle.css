@@ -1,49 +1,79 @@
-img{
+img {
     max-width: 250px;
 }
-main{
-    width:75%;
+
+main {
+    width: 75%;
 }
-aside{
-    width:25%;
-    height:90vh;
-    overflow-y:scroll;
-    position:sticky;
-    top:50px;
-    border:1px solid white;
+
+aside {
+    width: 25%;
+    height: 90vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    border: 1px solid white;
 }
-li b{
-    color:red;
+
+li b {
+    color: red;
 }
-li{
-    margin:5px 0 0 5px;
+
+li {
+    margin: 5px 0 0 5px;
 }
-#container{
-    height:100vh;
-    display:flex;
+
+/* width */
+aside::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+aside::-webkit-scrollbar-track {
+    background: rgba(136, 136, 136, 0.301);
+}
+
+/* Handle */
+aside::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+/* Handle on hover */
+aside::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,0,0,.50);
+}
+
+#container {
+    height: 100vh;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.weapon{
-    display:flex;
-    flex-direction:column;
+
+.weapon {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    border:1px solid white;
+    border: 1px solid white;
 }
-.stats{
-    
-    display:flex;
+
+.stats {
+
+    display: flex;
 }
-.stats div{
-    border:1px solid white;
+
+.stats div {
+    border: 1px solid white;
 }
+
 .stats div p {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     min-width: 250px;
-    padding:0 20px 0 20px;
-    font-size:1.5rem;
+    padding: 0 20px 0 20px;
+    font-size: 1.5rem;
 }
-.value{
-    color:red;
+
+.value {
+    color: red;
 }
