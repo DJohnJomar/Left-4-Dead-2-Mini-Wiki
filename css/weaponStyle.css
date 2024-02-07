@@ -1,0 +1,41 @@
+img{
+    max-width: 250px;
+}
+main{
+    width:80%;
+}
+aside{
+    width:20%;
+}
+li b{
+    color:red;
+}
+li{
+    margin:5px 0 0 5px;
+}
+#container{
+    display:flex;
+}
+.weapon{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    border:1px solid white;
+}
+.stats{
+    
+    display:flex;
+}
+.stats div{
+    border:1px solid white;
+}
+.stats div p {
+    display:flex;
+    justify-content: space-between;
+    min-width: 250px;
+    padding:0 20px 0 20px;
+    font-size:1.5rem;
+}
+.value{
+    color:red;
+}
