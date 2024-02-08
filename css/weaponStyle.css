@@ -46,10 +46,8 @@ li {
 }
 
 #container {
-    height: 100vh;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .weapon {
@@ -60,20 +58,22 @@ li {
 }
 
 .stats {
-
     display: flex;
+}
+.stats h3{
+    text-align: center;
 }
 
 .stats div {
     border: 1px solid white;
-}
+    margin:0 20px 0 0;
 
+}
 .stats div p {
     display: flex;
     justify-content: space-between;
     min-width: 250px;
     padding: 0 20px 0 20px;
-    font-size: 1.5rem;
 }
 
 .value {

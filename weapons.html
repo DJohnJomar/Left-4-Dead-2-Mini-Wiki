@@ -21,10 +21,10 @@
         <a href="index.html">Home</a>
         <a href="maps.html">Maps</a>
         <a href="characters.html">Characters</a>
-        <a href="weapons.html"  class="currentPage">Weapons</a>
+        <a href="weapons.html" class="currentPage">Weapons</a>
     </nav>
     <hr>
-    
+
     <div id="container">
         <!-- Weapon Stats Explanation Section -->
         <aside>
@@ -36,15 +36,21 @@
                 <li><b>Bullets:</b> Bullets per shot</li>
                 <li><b>RangeModifier:</b> Damage% loss every 512 in game units</li>
                 <li><b>Range:</b> Maximum range before bullets no longer deal damage. (Scales with range modifier)</li>
-                <li><b>GainRange:</b> This transforms a certain portion of Range, beginning from its end, into a curve that is steep at the middle and falls off to 0 at the end. The value is how much the range this curve takes up. The curve starts with the damage reduced by range Modifier until that specific point.</li>
+                <li><b>GainRange:</b> This transforms a certain portion of Range, beginning from its end, into a curve
+                    that is steep at the middle and falls off to 0 at the end. The value is how much the range this
+                    curve takes up. The curve starts with the damage reduced by range Modifier until that specific
+                    point.</li>
                 <li><b>PenetrationNumLayers:</b> How many layers can a bullet penetrate before stopping.</li>
-                <li><b>PenetrationPower:</b> Damage % left over after going through an object. Only affects them once. (100 = 100% of damage.</li>
-                <li><b>PenetrationMaxDistance:</b> Maximum distance bullets can travel after going through an object.</li> 
-                <li><b>CharacterPenetrationMaxDistance:</b> Maximum distance before limited penetration starts to apply against enemies, not objects. (It's basically infinite until distance is reached.)</li>
+                <li><b>PenetrationPower:</b> Damage % left over after going through an object. Only affects them once.
+                    (100 = 100% of damage.</li>
+                <li><b>PenetrationMaxDistance:</b> Maximum distance bullets can travel after going through an object.
+                </li>
+                <li><b>CharacterPenetrationMaxDistance:</b> Maximum distance before limited penetration starts to apply
+                    against enemies, not objects. (It's basically infinite until distance is reached.)</li>
                 <li><b>CycleTime:</b> Bullets per second.</li>
                 <li><b>ClipSize:</b> Maximum capacity per magazine.</li>
                 <li><b>CarryCapacity:</b> Maximum amount of spare ammo.</li>
-                <li><b>Damage per Second:</b> Total damage per second.</li>  
+                <li><b>Damage per Second:</b> Total damage per second.</li>
                 <li><b>Damage per Magazine:</b> Total damage per magazine.</li>
                 <li><b>Total Damage:</b> Total Damage with all ammo available.</li>
             </ul>
@@ -53,17 +59,17 @@
                 <li><b>VerticalPunch:</b> How much vertical recoil.</li>
                 <li><b>SpreadPerShot:</b> how much spread is added per shot.</li>
                 <li><b>MaxSpread:</b> Maximum amount of spread.</li>
-                <li><b>SpreadDecay:</b> how much spread is recovered per round.</li>   
-                <li><b>MinDuckingSpread:</b> Lowest spread when crouched.</li> 
+                <li><b>SpreadDecay:</b> how much spread is recovered per round.</li>
+                <li><b>MinDuckingSpread:</b> Lowest spread when crouched.</li>
                 <li><b>MinStandingSpread:</b> Lowest spread when standing.</li>
                 <li><b>MinInAirSpread:</b> Lowest spread when in air.</li>
-                <li><b>MaxMovementSpread:</b> Maximum spread possible for the weapon.</li> 
+                <li><b>MaxMovementSpread:</b> Maximum spread possible for the weapon.</li>
                 <li><b>(Shotguns)PelletScatterPitch:</b> Vertical spread of pellets.</li>
                 <li><b>(Shotguns)PelletScatterYaw:</b> Horizontal spread of pellets.</li>
-                
+
             </ul>
         </aside>
-    
+
         <!--Main-->
         <main>
             <!-- Tier 1 weapons section -->
@@ -72,20 +78,79 @@
                 <hr>
                 <div class="weapon">
                     <img src="Images/uzi.png">
-                    <p class="mediumFont">The Uzi is the weakest of all weapons, however used with a laser sight it can become a very lethal bullet hose. Good at picking commons because of it's run and gun accuracy. Headhunting is the best thing this weapon can do at closer range, even against incoming hordes.</p>
+                    <p class="mediumFont">The Uzi is the weakest of all weapons, however used with a laser sight it can
+                        become a very lethal bullet hose. Good at picking commons because of it's run and gun accuracy.
+                        Headhunting is the best thing this weapon can do at closer range, even against incoming hordes.
+                    </p>
                     <div class="stats">
                         <div>
+                            <h3 class="titleFont">Damage Related</h3>
                             <p><b>Damage:</b><span class="value">20</span></p>
-                            <p><b></b><span></span></p>
+                            <p><b>Bullets:</b><span class="value">1</span></p>
+                            <p><b>RangeModifier:</b><span class="value">0.84</span></p>
+                            <p><b>Range:</b><span class="value">2500</span></p>
+                            <p><b>GainRange:</b><span class="value">None</span></p>
+                            <p><b>PenetrationNumLayers:</b><span class="value">2</span></p>
+                            <p><b>PenetrationPower:</b><span class="value">30</span></p>
+                            <p><b>PenetrationMaxDistance:</b><span class="value">0</span></p>
+                            <p><b>CycleTime:</b><span class="value">0.0625 (960/minute or 16/second)</span></p>
+                            <p><b>ClipSize:</b><span class="value">50</span></p>
+                            <p><b>CarryCapacity:</b><span class="value">650</span></p>
+                            <p><b>Damage per Second:</b><span class="value">320</span></p>
+                            <p><b>Damage per Magazine:</b><span class="value">1000</span></p>
+                            <p><b>Total Damage:</b><span class="value">10600</span></p>
                         </div>
                         <div>
+                            <h3 class="titleFont">Accuracy Related</h3>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="weapon">
+                    <img src="Images/uzi.png">
+                    <p class="mediumFont">The Uzi is the weakest of all weapons, however used with a laser sight it can
+                        become a very lethal bullet hose. Good at picking commons because of it's run and gun accuracy.
+                        Headhunting is the best thing this weapon can do at closer range, even against incoming hordes.
+                    </p>
+                    <div class="stats">
+                        <div>
+                            <h3 class="titleFont">Damage Related</h3>
                             <p><b>Damage:</b><span class="value">20</span></p>
-                            <p><b></b><span></span></p>
+                            <p><b>Bullets:</b><span class="value">1</span></p>
+                            <p><b>RangeModifier:</b><span class="value">0.84</span></p>
+                            <p><b>Range:</b><span class="value">2500</span></p>
+                            <p><b>GainRange:</b><span class="value">None</span></p>
+                            <p><b>PenetrationNumLayers:</b><span class="value">2</span></p>
+                            <p><b>PenetrationPower:</b><span class="value">30</span></p>
+                            <p><b>PenetrationMaxDistance:</b><span class="value">0</span></p>
+                            <p><b>CycleTime:</b><span class="value">0.0625 (960/minute or 16/second)</span></p>
+                            <p><b>ClipSize:</b><span class="value">50</span></p>
+                            <p><b>CarryCapacity:</b><span class="value">650</span></p>
+                            <p><b>Damage per Second:</b><span class="value">320</span></p>
+                            <p><b>Damage per Magazine:</b><span class="value">1000</span></p>
+                            <p><b>Total Damage:</b><span class="value">10600</span></p>
+                        </div>
+                        <div>
+                            <h3 class="titleFont">Accuracy Related</h3>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
+                            <p><b></b><span class="value"></span></p>
                         </div>
                     </div>
                 </div>
             </section>
-    
             <!-- Tier 2 Weapons Section -->
         </main>
     </div>
