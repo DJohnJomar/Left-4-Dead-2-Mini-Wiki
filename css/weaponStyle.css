@@ -1,9 +1,12 @@
 img {
-    max-width: 250px;
+    max-width: 300px;
 }
 
 main {
     width: 75%;
+}
+h2{
+    text-align: center;
 }
 
 aside {
