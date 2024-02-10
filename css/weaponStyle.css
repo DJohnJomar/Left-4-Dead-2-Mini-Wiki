@@ -1,5 +1,5 @@
 img {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 main {
@@ -59,8 +59,7 @@ li {
     align-items: center;
     text-align: justify;
     padding:0 25px 0 25px;
-    margin:25px 0 25px 0;
-    border: 1px solid white;
+    margin:25px 0 50px 0;
 }
 
 .stats {
@@ -71,7 +70,6 @@ li {
 }
 
 .stats div {
-    border: 1px solid white;
     margin:0 20px 0 0;
 
 }
