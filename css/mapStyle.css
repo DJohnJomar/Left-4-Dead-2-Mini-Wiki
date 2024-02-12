@@ -1,0 +1,50 @@
+img{
+    max-width: 400px;
+    max-height:400px;
+}
+main{
+    display:flex;
+}
+.tableContent{
+    min-width:250px;
+    margin-right:25px;
+    
+    position:sticky;
+    top:50px;
+}
+.campaignContainer h2{
+    text-align: center;
+}
+.campaign {
+    display: flex;
+    margin:25px 0 0 0;
+}
+.campaign img:not(.tdImage){
+margin-right:25px;
+}
+
+.campaign p:not(.mediumFont) {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.tdSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tdSection p{
+    margin:0 25px 0 0;
+}
+
+.tdSection div {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.tdImage{
+    display:none;
+}
+
+
+
