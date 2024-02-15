@@ -5,12 +5,15 @@ img:not(.tdImage, #banner){
 main{
     display:flex;
 }
-.tableContent{
+aside{
     min-width:250px;
     margin-right:25px;
-    
     position:sticky;
     top:50px;
+}
+
+#container{
+    display:flex;
 }
 .campaignContainer h2{
     text-align: center;
