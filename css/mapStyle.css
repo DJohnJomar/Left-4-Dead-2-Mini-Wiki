@@ -1,29 +1,37 @@
-img:not(.tdImage, #banner){
+img:not(.tdImage, #banner) {
     max-width: 320px;
-    max-height:400px;
+    max-height: 400px;
 }
 main{
-    display:flex;
+    width:80%;
 }
-aside{
-    min-width:250px;
-    margin-right:25px;
-    position:sticky;
-    top:50px;
+aside {
+    width:20%;
+    height:50%;
+    margin-right: 25px;
+    position: sticky;
+    top: 50px;
+}
+aside a{
+    color:rgb(255,255,255);
+    font-size:2rem;
 }
 
-#container{
-    display:flex;
+#container {
+    display: flex;
 }
-.campaignContainer h2{
+
+.campaignContainer h2 {
     text-align: center;
 }
+
 .campaign {
     display: flex;
-    margin:25px 0 0 0;
+    margin: 25px 0 0 0;
 }
-.campaign img:not(.tdImage){
-margin-right:25px;
+
+.campaign img:not(.tdImage) {
+    margin-right: 25px;
 }
 
 .campaign p:not(.mediumFont) {
@@ -37,23 +45,22 @@ margin-right:25px;
     flex-direction: column;
 
 }
-.tdSection p{
-    margin:0 25px 0 0;
+
+.tdSection p {
+    margin: 0 25px 0 0;
 }
 
 .tdSection div {
-    padding:5px;
-    margin:0 0 25px 0;
+    padding: 5px;
+    margin: 0 0 25px 0;
     display: flex;
     align-items: center;
     width: fit-content;
-    border:1px solid rgb(255,0,0);
-}
-.tdImage{
-    max-width:900px;
-    display:none;
-    border:1px solid rgb(255,0,0);
+    border: 1px solid rgb(255, 0, 0);
 }
 
-
-
+.tdImage {
+    max-width: 900px;
+    display: none;
+    border: 1px solid rgb(255, 0, 0);
+}
