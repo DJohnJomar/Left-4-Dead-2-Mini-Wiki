@@ -1,4 +1,4 @@
-img:not(.tdImage){
+img:not(.tdImage, #banner){
     max-width: 320px;
     max-height:400px;
 }
