@@ -54,6 +54,7 @@ thead{
 tbody th, tbody td{
     padding-top:.5rem;
     padding-bottom:.5rem;
+    text-align: center;
 }
 
 li b {
